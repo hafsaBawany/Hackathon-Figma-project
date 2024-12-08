@@ -192,26 +192,26 @@ const Land = () => {
                     </div>
                 </div>
                 <div className="w-[1344px] h-[977px] my-[48px] ">
-                <h1 className="text-[22px] text-left font-bold text-black">Don't Miss</h1>
+                    <h1 className="text-[22px] text-left font-bold text-black">Don't Miss</h1>
                     <div className="h-[925px] flex flex-col justify-center items-center">
                         <img src="/DontMiss.svg" alt="" className="w-[1344px] h-[700px]" />
                         <div className="w-[1008px] h-[177px] mx-[20px] my-[68px]">
                             <h1 className="text-[52px] text-bold text-center">FLIGHT ESSENTIALS</h1>
                             <p className="text-[15px] mt-[10px] text-center">Your built-to-last, all-week wears—but with style only Jordan Brand can deliver.</p>
                             <button className="w-auto h-[39px] mt-[10px] ml-[460.81px] px-[21.88px] py-[7.5px] rounded-[30px] bg-black text-white text-[15px]">
-                            Shop
+                                Shop
                             </button>
 
                         </div>
                     </div>
                 </div>
                 <div className="w-[1344px] h-[592px] ">
-                <h1 className="text-[22px] text-left font-bold text-black">The Essentials</h1>
-                <div className="w-[1344px] h-[540px] flex">
-                    <img src="/Image-1.svg" alt="" className="w-[440px] h-[540px] ml-[6px]" />
-                    <img src="/Image-2.svg" alt="" className="w-[440px] h-[540px] ml-[6px]" />
-                    <img src="/Image-3.svg" alt="" className="w-[440px] h-[540px] ml-[6px]" />
-                </div>
+                    <h1 className="text-[22px] text-left font-bold text-black">The Essentials</h1>
+                    <div className="w-[1344px] h-[540px] flex">
+                        <img src="/Image-1.svg" alt="" className="w-[440px] h-[540px] ml-[6px]" />
+                        <img src="/Image-2.svg" alt="" className="w-[440px] h-[540px] ml-[6px]" />
+                        <img src="/Image-3.svg" alt="" className="w-[440px] h-[540px] ml-[6px]" />
+                    </div>
                 </div>
 
                 <div className="w-[880px] h-[192px] ml-[280px] mt-[48px] flex justify-center items-center">
@@ -254,7 +254,7 @@ const Land = () => {
                 </div>
                 <Footer />
             </div>
-            
+
 
         </div >
     )

@@ -32,7 +32,7 @@ const Sign = () => {
 
                     <div className="w-[324px]">
                         <p className="text-center text-[12px] font-helvetica font-normal leading-[16px] text-[#8D8D8D] mb-4">
-                            By logging in, you agree to Nike's Privacy Policy and Terms of Use.
+                            By logging in, you agree to Nikes Privacy Policy and Terms of Use.
                         </p>
                         <button className="w-full h-[40px] bg-[#000000] text-white rounded-[3px]">
                             SIGN IN
