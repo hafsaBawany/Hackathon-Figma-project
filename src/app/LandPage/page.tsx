@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer";
+import Link from "next/link";
 const Land = () => {
     return (
         <div>
@@ -30,9 +31,11 @@ const Land = () => {
                     </div>
 
                     <div className="mt-[14px] w-[1008px] h-[45px] pt-[6px] px-[373.63px] gap-[6px] flex">
-                        <button className="w-[110.58px] h-[39px] py-[7.5px] px-[21.5px] bg-[#111111] rounded-[30px] text-white text-[15px]">
-                            Notify Me
-                        </button>
+                        <Link href="/Products">
+                            <button className=" h-[39px] py-[7.5px] px-[21.5px] bg-[#111111] rounded-[30px] text-white text-[13px]">
+                              All Products
+                            </button>
+                        </Link>
 
                         <button className="w-[138.16px] h-[39px] py-[7.5px] px-[21.5px] bg-[#111111] rounded-[30px] text-white text-[15px]">
                             Shop Air Max

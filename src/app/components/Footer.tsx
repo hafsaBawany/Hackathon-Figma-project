@@ -1,8 +1,8 @@
 import React from "react";
 const Footer = () => {
     return (
-        <div className="w-[1440px] h-[331px] bg-black p-[40px]">
-            <div className="w-[1372px] h-[213px] mt-[40px] my-[34px] flex
+        <div className="w-[100vw] h-[331px] bg-black p-[40px]">
+            <div className="w-[100%] h-[213px]  flex
             ">
                 <div className="w-[1029px] h-[213px] flex">
                     <ol className="w-[245.25px] h-[169.62] text-[#FFFFFF] text-[11px]">
@@ -51,8 +51,8 @@ const Footer = () => {
                 </div>
                 
             </div>
-            <div className="w-[1440px] h-[62px] mt-[3px] my-[34px] flex bg-black">
-                    <div className="w-[672px] h-[32px]">
+            <div className="w-[100vw] h-[62px] mt-[3px] flex bg-black">
+                    <div className="w-[100%] h-[32px]">
                         <p className="text-[11px] text-[#7E7E7E] text-center mt-[25px]">© 2023 Nike, Inc. All Rights Reserved</p>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const JoinUs = () => {
     return (
@@ -72,6 +73,7 @@ const JoinUs = () => {
 
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };

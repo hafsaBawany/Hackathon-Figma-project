@@ -3,8 +3,8 @@ import Link from "next/link"
 const Header = () => {
     return (
         <div>
-            <div className="w-[1440px] h-[96px]">
-                <div className="w-[1440px] h-[36px] bg-[#F5F5F5] flex justify-between items-center">
+            <div className="w-[100%] h-[96px]">
+                <div className="w-[100%] h-[36px] bg-[#F5F5F5] flex justify-between items-center">
                     <img
                         src="/HeaderLogo.svg"
                         alt=""
@@ -20,7 +20,7 @@ const Header = () => {
                     </div>
 
                 </div>
-                <div className="w-[1440px] h-[60px] flex">
+                <div className="w-[100%] h-[60px] flex justify-between ">
                     <img
                         src="/NikeLogo.svg"
                         alt=""
