@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer";
+import productCards from "../productimport/page";
 import Link from "next/link";
 const Land = () => {
     return (
@@ -31,7 +32,7 @@ const Land = () => {
                     </div>
 
                     <div className="mt-[14px] w-[1008px] h-[45px] pt-[6px] px-[373.63px] gap-[6px] flex">
-                        <Link href="/Products">
+                        <Link href="/productimport">
                             <button className=" h-[39px] py-[7.5px] px-[21.5px] bg-[#111111] rounded-[30px] text-white text-[13px]">
                               All Products
                             </button>
